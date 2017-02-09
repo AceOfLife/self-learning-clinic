@@ -1,4 +1,4 @@
-var myApp = require('../app/library.js');
+
 
 (function(){
   'use strict';

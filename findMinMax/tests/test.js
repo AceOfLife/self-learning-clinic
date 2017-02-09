@@ -8,6 +8,10 @@
       it('should return [1,4] for [1, 2, 3 , 4]', function () {
         expect(findMinMax([1, 2, 3, 4])).toEqual([1, 4]);
       });
+      
+      it('should return [5,8] for [8, 7, 6, 5]', function () {
+        expect(findMinMax([8, 7, 6, 5])).toEqual([5, 8]);
+      });
 
       it('should return [4, 6] for [6, 4]', function () {
         expect(findMinMax([6, 4])).toEqual([4, 6]);

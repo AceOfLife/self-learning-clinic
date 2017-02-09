@@ -52,6 +52,10 @@
       it("should return -1 for [1, 3, 6, 10, 15]", function() {
         expect(aritGeo([1, 3, 6, 10, 15])).toEqual(-1);
       });
+      
+      it("should return -1 for [1, 8, 27, 64, 125]", function() {
+        expect(aritGeo([1, 8, 27, 64, 125])).toEqual(-1);
+      });
 
       
       

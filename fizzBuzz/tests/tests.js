@@ -1,4 +1,4 @@
-
+var myApp = require('../app/library.js');
 
 
 describe("Fizz Buzz tests ", function() {

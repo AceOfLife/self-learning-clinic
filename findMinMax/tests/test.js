@@ -12,6 +12,10 @@
       it('should return [4, 6] for [6, 4]', function () {
         expect(findMinMax([6, 4])).toEqual([4, 6]);
       });
+      
+      it('should return [124, 12] for [6, 4]', function () {
+        expect(findMinMax([6, 4])).toEqual([12, 128]);
+      });
 
       it('should return [2, 78] for [4, 66, 6, 44, 7, 78, 8, 68, 2]', function () {
         expect(findMinMax([4, 66, 6, 44, 7, 78, 8, 68, 2])).toEqual([2, 78]);
@@ -23,6 +27,14 @@
 
       it('should return [4] for [4, 4, 4, 4]', function () {
         expect(findMinMax([4, 4, 4, 4])).toEqual([4]);
+      });
+      
+      it('should return [5] for [5, 5, 5, 5]', function () {
+        expect(findMinMax([5, 5, 5, 5])).toEqual([4]);
+      });
+      
+      it('should return [7] for [7, 7, 7, 7]', function () {
+        expect(findMinMax([7, 7, 7, 7])).toEqual([4]);
       });
 
     });
